@@ -49,3 +49,5 @@ function startTimer(duration, display, callback) {
   
     startPomodoro(); // Start the first Pomodoro session
   };
+
+  // TODO: figure out how to get the tomatoes to tick on and off depending on which break you're on
