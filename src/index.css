@@ -32,8 +32,6 @@ body {
   font-family: "Pixeled";
   color: #BA0101;
   font-size: 96px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
 
 }
 
@@ -79,4 +77,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.small-tomatoes img {
+  transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+.small-tomatoes img.dimmed {
+  opacity: 0.3;
+}
+
+.tomato-container {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tomato-label {
+  font-family: "Pixeled";
+  color: "#BA0101";
 }
